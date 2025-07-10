@@ -1,0 +1,877 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ntfx_prjct_data' inline='true' name='federated.1qb71r60q15m0617ujohz1o7zczm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ntfx_prjct_data' name='textscan.1noqbvc0yvguog1eabclo112hnjb'>
+            <connection class='textscan' directory='C:/Users/Sahil/Downloads' filename='ntfx_prjct_data.txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1noqbvc0yvguog1eabclo112hnjb' name='ntfx_prjct_data.txt' table='[ntfx_prjct_data#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='show_id' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='string' name='director' ordinal='3' />
+            <column datatype='string' name='cast' ordinal='4' />
+            <column datatype='string' name='country' ordinal='5' />
+            <column datatype='string' name='date_added' ordinal='6' />
+            <column datatype='integer' name='release_year' ordinal='7' />
+            <column datatype='string' name='rating' ordinal='8' />
+            <column datatype='string' name='duration' ordinal='9' />
+            <column datatype='string' name='listed_in' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>show_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[show_id]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>show_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[director]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>director</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cast]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>cast</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_added</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[date_added]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>date_added</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_year]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>release_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rating]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>rating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>listed_in</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[listed_in]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>listed_in</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[ntfx_prjct_data.txt]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ntfx_prjct_data.txt' datatype='table' name='[__tableau_internal_object_id__].[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]' role='measure' type='quantitative' />
+      <column caption='Cast' datatype='string' name='[cast]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Added' datatype='string' name='[date_added]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='string' name='[duration]' role='dimension' type='nominal' />
+      <column caption='Listed In' datatype='string' name='[listed_in]' role='dimension' type='nominal' />
+      <column caption='Rating' datatype='string' name='[rating]' role='dimension' type='nominal' />
+      <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+      <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Sahil/AppData/Local/Temp/TableauTemp/#TableauTemp_0ppquiw1miaxrb19t6q941e5ibf2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/01/2025 04:34:55 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>show_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[show_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>show_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6234</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>title</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6015</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>director</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[director]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>director</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2119</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cast</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cast]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cast</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4511</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>328</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>date_added</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[date_added]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date_added</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1132</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>release_year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[release_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>release_year</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rating</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rating</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>duration</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[duration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>duration</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>202</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>listed_in</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[listed_in]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>listed_in</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>373</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>description</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ntfx_prjct_data.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6234</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:type:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;TV Show&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Movie&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ntfx_prjct_data.txt' id='ntfx_prjct_data.txt_5BCA9DDD427943EEB5047BDE0446FA8B'>
+            <properties context=''>
+              <relation connection='textscan.1noqbvc0yvguog1eabclo112hnjb' name='ntfx_prjct_data.txt' table='[ntfx_prjct_data#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='show_id' ordinal='0' />
+                  <column datatype='string' name='type' ordinal='1' />
+                  <column datatype='string' name='title' ordinal='2' />
+                  <column datatype='string' name='director' ordinal='3' />
+                  <column datatype='string' name='cast' ordinal='4' />
+                  <column datatype='string' name='country' ordinal='5' />
+                  <column datatype='string' name='date_added' ordinal='6' />
+                  <column datatype='integer' name='release_year' ordinal='7' />
+                  <column datatype='string' name='rating' ordinal='8' />
+                  <column datatype='string' name='duration' ordinal='9' />
+                  <column datatype='string' name='listed_in' ordinal='10' />
+                  <column datatype='string' name='description' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='18'>TVSHOWS_MOVIES</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntfx_prjct_data' name='federated.1qb71r60q15m0617ujohz1o7zczm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qb71r60q15m0617ujohz1o7zczm'>
+            <column-instance column='[show_id]' derivation='Count' name='[cnt:show_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' field='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffbe7d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' />
+              <text column='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' />
+              <text column='[federated.1qb71r60q15m0617ujohz1o7zczm].[cnt:show_id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qb71r60q15m0617ujohz1o7zczm].[cnt:show_id:qk]</rows>
+        <cols>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]</cols>
+      </table>
+      <simple-id uuid='{ECA79026-898C-4F03-9637-4BD48973EC3C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntfx_prjct_data' name='federated.1qb71r60q15m0617ujohz1o7zczm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qb71r60q15m0617ujohz1o7zczm'>
+            <column-instance column='[show_id]' derivation='Count' name='[cnt:show_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:release_year:qk]' included-values='in-range'>
+            <min>1980</min>
+            <max>2020</max>
+          </filter>
+          <slices>
+            <column>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#f28e2b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='color' field='[federated.1qb71r60q15m0617ujohz1o7zczm].[cnt:show_id:qk]' value='#e10000' />
+            <format attr='color' field='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:release_year:qk]' value='#e10000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' />
+              <text column='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' />
+              <text column='[federated.1qb71r60q15m0617ujohz1o7zczm].[cnt:show_id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qb71r60q15m0617ujohz1o7zczm].[cnt:show_id:qk]</rows>
+        <cols>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:release_year:qk]</cols>
+      </table>
+      <simple-id uuid='{F2DEC39D-2D2C-496D-A32E-02DDE22BA2F6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:show_id:ok]</field>
+            <field>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D65FFF30-C6AD-4288-9A3D-57F73BE456B1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:release_year:qk]</field>
+            <field>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:show_id:ok]</field>
+            <field>[federated.1qb71r60q15m0617ujohz1o7zczm].[none:type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FBDAAA8D-AC15-407C-B4B0-A103AA9E29EF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      D/zSm2Cb3l/QAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      1AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
