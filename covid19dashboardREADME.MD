@@ -1,4 +1,4 @@
-# 📊 COVID-19 Global Analysis Dashboard (Tableau)
+# COVID-19 Global Analysis Dashboard (Tableau)
 
 A fully interactive Tableau dashboard visualizing COVID-19 confirmed cases, deaths, and recoveries across the globe. This project focuses on visual analytics to identify trends, hotspots, and country-wise breakdowns of the pandemic.
 
